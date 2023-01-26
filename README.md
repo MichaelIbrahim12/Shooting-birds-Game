@@ -1,2 +1,2 @@
 Shotting bird game.
-It was a JavaScript project.
+It is a JavaScript project.
