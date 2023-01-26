@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shooting Game</title>
+    <link rel="stylesheet" href="./styleGame.css">
+</head>
+<body>
+    <img src="./images/p7.gif"  alt="" class="bomb bomb1 invisible">
+    <img src="./images/p7.gif"  alt="" class="bomb bomb2 invisible">
+    <img src="./images/p7.gif"  alt="" class="bomb bomb3 invisible">   
+    <div class="title">
+        <div class="span">Welcome:<span class="nameup"></span></div>
+        <div class="span" >score:<span class="score">0</span></div>
+        <div class="span">Time Limit:<span class="time">60</span></div>
+        <div class="span">Birds Killed:<span class="killed">0</span></div>
+    </div>
+    <div class="introduction">
+    <p class="name"></p>
+    <p>your Last Score:<span class="lastscore"></span></p>
+    <p>your Last visit:<span class="lastvisit"></span></p>
+    <p>We hope you enjoy our Game.</p>
+    <p>You have to get More Than 50 Points to Win.</p>
+    <p>Good Luck.</p>
+    <button class="btn">Start</button>
+    </div>
+    <div class="final display">       
+        <p class="final--word"></p>
+        <p class="final--score"></p>
+        <a href="./index.html" class="final--bottom"><button>New Game</button></a> 
+        <button class="again">Play Again</button>      
+    </div>
+    <script src="./scriptGame.js"></script>
+</body>
+</html>

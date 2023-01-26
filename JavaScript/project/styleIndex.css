@@ -1,0 +1,108 @@
+
+html{
+    font-size: 62.5%;
+
+}
+body{
+    background-image: url(./images/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    zoom:200%;
+    left: -16vw;
+    top: -4vh;
+    position: absolute;
+}
+
+.login{
+    background-color:rgb(230, 230, 230, 50%);
+    width:20rem;
+    height: 15rem;
+    position: relative;
+    left: 35vw;
+    top: 7vh;
+    margin-bottom: 15px;
+    border-radius: 15px;
+   
+
+}
+.loginform{
+    position: absolute;
+    width: 20rem;
+    height: 15rem;
+}
+
+.loginform--level{
+    font-size: 15px;
+    position: relative;
+    left: 4rem;
+    margin: 2px;
+}
+#level,option{
+    width: 12rem;
+    height: 2rem;
+    background-color: whitesmoke;
+    position: relative;
+    left: 5rem;
+    margin-top: 2px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 10px;
+}
+.loginform--name{
+    font-size: 14px;
+    position: relative;
+    left: 4rem;
+    margin: 2px;
+}
+.loginform--field{
+    width: 12rem;
+    height: 2rem;
+    background-color: whitesmoke;
+    position: relative;
+    left: 5rem;
+    margin-top: 2px;
+    border-radius: 5px;
+    outline: 0px;
+    border: none;
+    font-size: 10px;
+}
+.loginform--go button{
+    display: block;
+    width: 70px;
+    font-size: 15px;
+    position: relative;
+    left: 7rem;
+    margin-top: 20px;
+    border: black solid;
+    border-radius: 20px;
+    cursor:pointer;
+}
+.loginform--go{
+    text-decoration: none;
+}
+.loginform--go button:hover{
+    background-color: rgba(128, 128, 128, 0.225);
+}
+img{
+    width: 35px;
+    position: relative;
+    top: 10px;
+    margin-right: 5px;
+}
+.score1--span{
+    display: inline-block;
+    font-size: 20px;
+}
+.score2--span{
+    display: inline-block;
+    font-size: 20px;
+}
+.score3--span{
+    display: inline-block;
+    font-size: 20px;
+}
+.score1,.score2,.score3{
+margin-top: 10px;
+margin-left: 30px;
+}

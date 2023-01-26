@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="./styleIndex.css">
+</head>
+<body>
+    <div class="login">
+        <form  action="./game.html" class="loginform" method="get">
+                <p class="loginform--level">Select Game Level.</p>
+                <select name="gamelevel" id="level" required>
+                    <option value="" disabled selected>choose your level</option>
+                    <option value="level1">Level 1</option>
+                </select>
+            <p class="loginform--name">Enter Your name.</p>
+            <input type="text" name="username" class="loginform--field" required placeholder="Enter your name..">
+            <a href="/game.html" class="loginform--go"><button>Go</button></a>
+        </form>
+    </div>
+    <div class="login">
+        <div class="score1">
+            <img src="./images/bird2.gif" alt="bird1">
+            <span class="score1--span">+5 Points</span>
+        </div>
+        <div class="score2">
+            <img src="./images/bird3.gif" alt="bird1">
+            <span class="score2--span">+10 Points</span>
+        </div>
+        <div class="score3">
+            <img src="./images/bird1.gif" alt="bird1">
+            <span class="score3--span">-10 Points</span>
+        </div>
+    </div>
+    
+    <script src="./scriptIndex.js"></script>
+</body>
+</html>

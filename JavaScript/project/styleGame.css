@@ -1,0 +1,146 @@
+*{
+    cursor: url("./images/cursor.png"),auto;
+}
+
+body{
+    background-image: url(./images/wall2.png);
+background-repeat: no-repeat;
+    cursor: "./images/cursor.png";
+    zoom:200%; /**/
+    position: relative; /**/
+}
+
+.introduction{
+    background-color:rgb(230, 230, 230, 50%);
+    width:20rem;
+    height: 15rem;
+    position: relative;
+    left: 15vw;
+    top: 5vh;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border-radius: 15px;
+}
+
+
+.btn{
+    display: block;
+    width: 70px;
+    font-size: 15px;
+    position: relative;
+    left: 7rem;
+    margin-top: 20px;
+    border: black solid;
+    border-radius: 20px;
+}
+.btn:hover{
+    background-color: rgba(128, 128, 128, 0.225);
+}
+.name{
+font-weight: 700;
+text-transform: uppercase;
+}
+p{
+   padding-left: 10px;
+   padding-bottom: 0px;
+   padding-top: 5px;
+}
+
+.display{
+    display: none;
+}
+.indisplay{
+    display: inline-block;
+}
+.visible{
+    visibility: visible;
+
+}
+.invisible{
+    visibility: hidden;
+}
+img{
+    width: 70px;
+    position: relative;
+    transform: rotateY(180deg);
+}
+.span{
+    display: inline-block;
+    border-radius: 15px;
+    width: 10rem;
+    text-align: left;
+    padding-left: 12px;
+    background-color:rgb(230, 230, 230, 80%);
+    ;
+}
+.title{
+    display: flex;
+    flex-direction: left;
+    justify-content: space-around;
+}
+
+.bird1{
+    width: 120px;
+    position: absolute;
+    transform: rotateY(180deg);
+    z-index: 1;
+}
+.bird2{
+    width: 80px;
+    position: absolute;
+    transform: rotateY(180deg);
+    z-index: 1;
+}
+.bird3{
+    width: 60px;
+    position: absolute;
+    transform: rotateY(180deg);
+z-index: 1;
+}
+
+.bomb{
+    width: 50px;
+    position: absolute; 
+    z-index: 2;
+}
+
+.final{
+    background-color:rgb(230, 230, 230, 50%);
+    width:20rem;
+    height: 15rem;
+    position: absolute;
+    left: 13vw;
+    top: 10vh;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border-radius: 15px;
+}
+.final--bird{
+    width: 150px;
+    display: block;
+    left: 30%;
+    top: 7%;
+}
+
+
+.final--bottom button,.again{
+    display: inline-block;
+    width: 90px;
+    font-size: 15px;
+    position: relative;
+    left: 4.5rem;
+    top: 1rem;
+    border: black solid;
+    border-radius: 20px;
+}
+.final--bottom{
+    text-decoration: none;
+}
+.final--bottom button:hover,.again:hover{
+    background-color: rgba(128, 128, 128, 0.225);
+}
+.final > .final--word , .final >.final--score{
+    position: relative;
+    left:7rem;
+    padding-top:7px ;
+}
